@@ -10,7 +10,7 @@ First, go to [account.riotgames.com](https://account.riotgames.com) and log in i
 
 Then: 
   1. Open a new tab and press `F12` (or `Ctrl+Shift+I`/`⌥⌘I`) to open devtools, head to the `Network` tab on the top right
-  2. with the Network tab open, open this link on that tab `https://auth.riotgames.com/`
+  2. with the Network tab open, open this link on that tab `https://auth.riotgames.com/`\
        **Note:** You will see a page saying "*An error occured!*" That is normal, ignore it.
   3. A new network request will appear called `auth.riotgames.com` in the Network tab, click on it
 
@@ -22,7 +22,7 @@ Then:
 
 <img width="1248" height="534" alt="image" src="https://github.com/user-attachments/assets/f9f0dc07-4993-4949-94c6-7f1d0d4be8f9" />
 
-That is your Riot cookies, you can use it in the `/cookies` command 
+Those are your Riot cookies, you can now use it in the `/cookies` command 
 
 # Common errors when logging in via cookies
 
