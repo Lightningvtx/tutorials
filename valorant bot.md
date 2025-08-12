@@ -6,18 +6,16 @@ This bot accepts only cookies so your login information is not used and or store
 
 This guide uses Chrome, but opera and any other browser except for firefox will work, because firefox doesn't show your whole cookie if it's too long.
 
-First, go to [account.riotgames.com](https://account.riotgames.com) and log in if you aren't already. Also make sure that you have checked the _Remember me_ option when you are logging in, otherwise it will log you out of the bot after 24 hours.
-
-Then: 
-  1. Open a new tab and press `F12` (or `Ctrl+Shift+I`/`⌥⌘I`) to open devtools, head to the `Network` tab on the top right
-  2. with the Network tab open, open this link on that tab `https://auth.riotgames.com/`\
+  1. Go to [account.riotgames.com](https://account.riotgames.com) and log in, make sure that you have checked the _Remember me_ option when you are logging in, otherwise it will log you out of the bot after 24 hours
+  2. Press `F12` (or `Ctrl+Shift+I`/`⌥⌘I`) to open devtools, head to the `Network` tab on the top right
+  3. With the Network tab open, open the following link on the same tab `https://auth.riotgames.com/`\
        **Note:** You will see a page saying "*An error occured!*" That is normal, ignore it.
-  3. A new network request will appear called `auth.riotgames.com` in the Network tab, click on it
+  4. A new network request will appear called `auth.riotgames.com` in the Network tab, click on it
 
 <img width="1155" height="740" alt="part 1 + 3" src="https://github.com/user-attachments/assets/04e656a0-6fa4-4845-8c71-fa8b1e4dc62d" />
 
 
-  4. in that window that appeared, scroll down to the `Request Headers` section
+  5. in that window that appeared, scroll down to the `Request Headers` section
 
 
 <img width="1248" height="534" alt="image" src="https://github.com/user-attachments/assets/f9f0dc07-4993-4949-94c6-7f1d0d4be8f9" />
