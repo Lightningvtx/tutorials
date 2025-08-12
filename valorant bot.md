@@ -28,6 +28,6 @@ That is your Riot cookies, you can use it in the `/cookies` command
 Make sure you are logged in on account.riotgames.com, press `F12` on that page, and change the page link to `auth.riotgames.com` **without** opening a new tab.
 
 ## `There was an error trying to do that! I blame Riot, they fucked with the api somehow. undefined`
-Reload the auth.riotgames.com page and copy the cookie again.
+Reload the auth.riotgames.com page and copy the cookie again.\
 Sometimes the cookie is either longer or shorter than it’s supposed to be.
 
