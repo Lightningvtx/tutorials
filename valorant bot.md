@@ -6,7 +6,7 @@ This bot accepts only cookies so your login information is not used and or store
 
 This guide uses Chrome, but opera and any other browser except for firefox will work, because firefox doesn't show your whole cookie if it's too long.
 
-First, go to [account.riotgames.com](https://account.riotgames.com) and log in if you aren't already. Also make sure that you have checked the __Remember me__ option when you are logging in, otherwise it will log you out of the bot after 24 hours.
+First, go to [account.riotgames.com](https://account.riotgames.com) and log in if you aren't already. Also make sure that you have checked the _Remember me_ option when you are logging in, otherwise it will log you out of the bot after 24 hours.
 
 Then: 
   1. Open a new tab and press `F12` (or `Ctrl+Shift+I`/`⌥⌘I`) to open devtools, head to the `Network` tab on the top right
@@ -22,12 +22,12 @@ Then:
 
 That is your Riot cookies, you can use it in the `/cookies` command 
 
-## Common errors when logging in via cookies
+# Common errors when logging in via cookies
 
-### `You can't find the cookie inside DevTools (F12 / Ctrl+Shift+I / ⌥⌘I )`
+## `You can't find the cookie inside DevTools (F12 / Ctrl+Shift+I / ⌥⌘I )`
 Make sure you are logged in on account.riotgames.com, press `F12` on that page, and change the page link to `auth.riotgames.com` **without** opening a new tab.
 
-### `There was an error trying to do that! I blame Riot, they fucked with the api somehow. undefined`
+## `There was an error trying to do that! I blame Riot, they fucked with the api somehow. undefined`
 Reload the auth.riotgames.com page and copy the cookie again.
 Sometimes the cookie is either longer or shorter than it’s supposed to be.
 
