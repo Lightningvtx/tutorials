@@ -14,13 +14,11 @@ This guide uses Chrome, but opera and any other browser except for firefox will 
 
 <img width="1155" height="740" alt="part 1 + 3" src="https://github.com/user-attachments/assets/04e656a0-6fa4-4845-8c71-fa8b1e4dc62d" />
 
-
   5. in that window that appeared, scroll down to the `Request Headers` section
-
 
 <img width="1248" height="534" alt="image" src="https://github.com/user-attachments/assets/f9f0dc07-4993-4949-94c6-7f1d0d4be8f9" />
 
-Those are your Riot cookies, you can now use it in the `/cookies` command 
+  6. copy that cookie and paste it into the `cookies` section of the `/cookies` command
 
 # Common errors when logging in via cookies
 
